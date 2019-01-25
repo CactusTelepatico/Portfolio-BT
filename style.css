@@ -1,0 +1,79 @@
+*{
+  Border: 0%;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.imagen{
+  width:90%
+}
+.imagen2{
+  width:100%
+}
+h2{
+  text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+  text-align: center;
+  color: coral;
+
+}
+div.polaroid {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div.foto {
+  text-align: center;
+}
+p{
+  text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+  text-align: center;
+  color: white;
+  text-shadow:-1px -1px 0 #000,
+}
+
+@media only screen and (min-width: 300px) {
+	body {
+    background-image:url("img/back.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	}
+}
+@media only screen and (min-width: 768px) {
+	body {
+background-image:url("img/big_back.jpg");
+	}
+}
+.container{
+
+background-color:rgba(255, 255, 255, 0.4);
+  align-content: center;
+  border:2px solid black;
+}
+.row{
+  align-items: center;
+  border-radius: 5% 5% 0% 0%;
+background-color:rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin:3%;
+  border:2px solid black;
+}
+.col-12{
+  align-content: center;
+  border-radius: 5% 5% 0% 0%;
+background-color:rgba(27, 12, 125, 0.5);
+  text-align: center;
+  border:2px solid black;
+}
